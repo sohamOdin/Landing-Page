@@ -1,0 +1,145 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 700px;
+    padding: 15px;
+    align-items: center;
+    height: 80px;
+}
+
+.awesome{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 200px;
+    height: 300px;
+    align-items: center;
+}
+
+.block1{
+    align-items: center;
+    justify-content: center;
+}
+
+#subtext{
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+#img2{
+    height: 200px;
+    width: 450px;
+}
+
+#ff{
+    max-width: 80px;
+}
+
+.random{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info{
+    max-width: 50px;
+}
+
+#img1{
+    max-width: 300px;
+    max-height: 100px;
+    border-radius: 200px;
+
+}
+
+.links{
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.block1 h1 {
+    color: white;
+}
+
+.block1 div{
+    color: white;
+    font-size: 15px;
+}
+
+button{
+    background-color: #3882F6;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+#flash{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.quote{
+   background-color: lightgray;
+   font-size: 30px;
+}
+.quote p{
+    text-align: center;
+}
+.quote h4{
+    text-align: right;
+    margin-right: 150px;
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+}
+
+.mcontainer{
+    width: 700px;
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    gap: 32px;
+}
+
+.mcontainer button{
+    width: 150px;
+    height: 50px;
+}
+
+.footer{
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 19px;
+    
+}
